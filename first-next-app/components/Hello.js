@@ -1,6 +1,8 @@
+import Style from "./../styles/Hello.module.css";
+
 const Hello = () => {
   return (
-    <h1>Hello world!</h1>
+    <h1 className={Style.hello}>Hello world!</h1>
   );
 };
 

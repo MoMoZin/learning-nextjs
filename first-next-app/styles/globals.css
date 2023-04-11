@@ -1,0 +1,10 @@
+.container {
+  width: 50%;
+  margin: 0 auto;
+  background-color: greenyellow;
+}
+
+* {
+  margin: 10px;
+  padding: 10px;
+}

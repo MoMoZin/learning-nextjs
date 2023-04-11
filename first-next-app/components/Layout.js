@@ -2,7 +2,7 @@ import Hello from "../components/Hello";
 
 const Layout = ({ children }) => {
   return (
-    <div className="layout">
+    <div className="container">
       <Hello />
       {children}
     </div>
