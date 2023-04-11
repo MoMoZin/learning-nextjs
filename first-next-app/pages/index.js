@@ -1,6 +1,11 @@
+import Link from "next/link";
+
 const index = () => {
   return (
-    <h1>Hello world!</h1>
+    <div>
+      <h1>Hello world!</h1>
+      <Link href="/about">Go to about page</Link>
+    </div>
   );
 };
 
