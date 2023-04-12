@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-const errorPage = () => {
+const ErrorPage = () => {
 
   const route = useRouter();
 
@@ -16,4 +16,4 @@ const errorPage = () => {
   );
 };
 
-export default errorPage;
+export default ErrorPage;

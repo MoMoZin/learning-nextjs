@@ -10,7 +10,7 @@ const index = ({ data }) => {
         <meta name="keywords" content="Next.js, javascript, react" />
       </Head>
       {
-        data.map(todo => <h1>{todo.title}</h1>)
+        data.map(todo => <h1 key={todo.id}>{todo.title}</h1>)
       }
     </div>
   );
